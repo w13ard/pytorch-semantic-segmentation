@@ -15,12 +15,3 @@ Use:
 
 Use train images and masks from "Carvana" dataset:
 https://www.kaggle.com/c/carvana-image-masking-challenge/data
-
-Folder struct:
---dataset\
----train_data\
-----image1
-----imageN
----train_masks\
-----mask1
-----maskN
