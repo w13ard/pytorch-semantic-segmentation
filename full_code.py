@@ -207,7 +207,6 @@ def decode_segmap(image, nc=2):
 
 # helper func for image show
 def segment(net, show_orig=True, dev='cuda'):
-  img = Image.open(str(train_images[2378])) # here you can load any car image
   if show_orig: plt.imshow(img); plt.axis('off'); plt.show()
   trf = transforms.Compose([transforms.Resize(224), 
                    transforms.ToTensor(),
@@ -221,4 +220,5 @@ def segment(net, show_orig=True, dev='cuda'):
   
 # model eval
 nn = model.eval()
-segment(nn)
+img = Image.open('path/to/image.jpg')
+segment(nn, img)
