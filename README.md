@@ -13,8 +13,7 @@ Use:
 6. Hand-writing train and eval func
 7. Helper funcs for image show
 
-Used dataset:
-Just train images and masks from "Carvana" dataset
+Use train images and masks from "Carvana" dataset:
 https://www.kaggle.com/c/carvana-image-masking-challenge/data
 
 Folder struct:
