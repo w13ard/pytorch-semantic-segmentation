@@ -14,7 +14,9 @@ Use:
 7. Helper funcs for image show
 
 Used dataset:
-Just train images and masks from "Carvana" dataset: https://www.kaggle.com/c/carvana-image-masking-challenge/data
+Just train images and masks from "Carvana" dataset
+https://www.kaggle.com/c/carvana-image-masking-challenge/data
+
 Folder struct:
 --dataset\
 ---train_data\
